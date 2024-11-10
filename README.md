@@ -11,7 +11,7 @@ A React application that tracks device shakes using the Sensors API. Each shake 
 
 ## Setup
 1. Clone the repository:
-   git clone <repository-url>
+   git clone https://github.com/ziyadkhan35/Device-Shake-Counter.git
    cd shake-counter
 
 2. Install dependencies:
