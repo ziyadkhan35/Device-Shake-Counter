@@ -16,7 +16,7 @@ const App: React.FC = () => {
       accelerometer = new (window as any).Accelerometer({ frequency: 60 });
       accelerometer.addEventListener('reading', () => {
         const { x, y, z } = accelerometer;
-        if (Math.abs(x) > 0 || Math.abs(y) > 15 || Math.abs(z) > 15) {
+        if (Math.abs(x) > 15 || Math.abs(y) > 15 || Math.abs(z) > 15) {
           setShakeCount((prev) => prev + 1);
           setIsShaking(true);
           
