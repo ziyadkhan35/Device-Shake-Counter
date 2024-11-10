@@ -2,6 +2,7 @@
 
 ## Description
 A React application that tracks device shakes using the Sensors API. Each shake increments a counter and triggers a visual animation.
+You can see it by clicking on this link: https://device-shake-counter-ten.vercel.app/
 
 ## Features
 - Shake detection using accelerometer.
